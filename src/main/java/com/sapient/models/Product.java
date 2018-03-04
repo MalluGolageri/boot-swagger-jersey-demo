@@ -3,6 +3,21 @@ package com.sapient.models;
 public class Product {
 	private long id;
 	private String name;
+	private String description;
+	
+	private int quantity;
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
 	private double price;
 	private String type;
 	public long getId() {
